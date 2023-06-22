@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 public class JavaFight{
     public static void main(String[] args){
+        // Necessary imports
+        Scanner input = new Scanner(System.in);
+        
         // General attributes
         boolean isCharacterHit;
         int rangeDifference;
@@ -25,5 +30,9 @@ public class JavaFight{
         int weaponDamage;
         int weaponMinimumRange;
         int weaponMaximumRange;
+
+        System.out.println("");
+        String chooseWeaponPlayer = input.nextLine();
+
     }
 }
