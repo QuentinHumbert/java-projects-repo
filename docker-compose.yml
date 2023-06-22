@@ -1,0 +1,9 @@
+
+version: '3'
+services:
+  java_container:
+    image: openjdk:18-jdk  # Utilisez l'image officielle d'OpenJDK pour Java 18
+    volumes:
+      - C:\Users\IB\Documents\Code\Docker\java_projects:/app  # Montez le dossier local dans le conteneur
+    working_dir: /app  # Définissez le répertoire de travail dans le conteneur
+    tty: true

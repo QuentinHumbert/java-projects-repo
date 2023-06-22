@@ -1,0 +1,1 @@
+Petit jeu de combat entre le joueur et un enemie qui fais une action random. (en un fichier puis en plusieurs).
