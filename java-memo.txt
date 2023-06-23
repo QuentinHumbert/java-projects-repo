@@ -3,3 +3,5 @@
 - javac {filename}.java pour compiler et créer un .class puis java {filename} pour exécuter le programme.
 
 - \ pour afficher des symboles dans les chaînes de caractères (exemple "\"Hi\"" ou \n pour sauter une ligne).
+
+- Arrays.stream() pour lire les tableaux et faire des comparaisons.

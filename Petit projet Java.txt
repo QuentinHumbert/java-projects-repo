@@ -1,1 +1,6 @@
-Petit jeu de combat entre le joueur et un enemie qui fais une action random. (en un fichier puis en plusieurs).
+Petit jeu de combat entre le joueur et un enemie qui fais une action choisis:
+ - Version 1: Un fichier sans class en console
+ - Version 2: V1 avec des classes et des fonctions
+ - Version 3: V2 divisé en différent fichiers
+ - Version 4: V3 avec un affichage web
+ - Version 5: V3 avec un affichage 
