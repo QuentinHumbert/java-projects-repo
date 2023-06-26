@@ -9,7 +9,7 @@ public class JavaFight{
 
         
         // General attributes
-        String weaponWheel[] = {"Sword","Axe","Spear"};
+        String[] weaponWheel = {"Sword","Axe","Spear"};
         int damageReduction = 0;
         int diceRoll = 0;
 
@@ -120,8 +120,6 @@ public class JavaFight{
                 playerStamina += 10;
                 enemyStamina += 10;
             }
-            
-            
             
         }
     }
