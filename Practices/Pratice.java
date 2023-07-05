@@ -1,3 +1,4 @@
+package Practices;
 import java.util.*;
 
 public class Pratice {
@@ -103,5 +104,8 @@ public class Pratice {
         // }
 
         // System.out.println(voyelleList);
+
+
+        scanner.close();
     }
 }

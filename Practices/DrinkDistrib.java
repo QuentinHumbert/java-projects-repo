@@ -1,3 +1,4 @@
+package Practices;
 import java.util.*;
 
 public class DrinkDistrib {
@@ -19,8 +20,7 @@ public class DrinkDistrib {
         } else {
             System.out.println("Erreur: boisson inconnu.");
         }
-
-    }
+        scanner.close();    }
 
     static void drinkChosen(String drinkAsked, double priceAsked) {
         Scanner scanner = new Scanner(System.in);
@@ -48,5 +48,6 @@ public class DrinkDistrib {
                 System.out.println("Distribution de la boisson... Passé une agréable journée/soirée.");
             }
         }
+        scanner.close();
     }
 }

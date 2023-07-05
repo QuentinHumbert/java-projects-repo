@@ -5,3 +5,13 @@
 - \ pour afficher des symboles dans les chaînes de caractères (exemple "\"Hi\"" ou \n pour sauter une ligne).
 
 - Arrays.stream() pour lire les tableaux et faire des comparaisons.
+
+Astuces:
+Réfléchir et équilibrer Performance et Mémoire
+
+Utiliser les bons types pour les besoins (bytes pour 128 et moins etc...).
+Utiliser "cast" pour convertir des types de nombres
+Utiliser ++var pour incrémenter, réduit le nombre d'opération effectué.
+Utiliser .equals au lieu de == (String only).
+Utiliser .concat au lieu de + (String only).
+Utiliser continue pour reprendre depuis le début une boucle
