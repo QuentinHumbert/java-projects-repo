@@ -11,7 +11,12 @@ Réfléchir et équilibrer Performance et Mémoire
 
 Utiliser les bons types pour les besoins (bytes pour 128 et moins etc...).
 Utiliser "cast" pour convertir des types de nombres
-Utiliser ++var pour incrémenter, réduit le nombre d'opération effectué.
-Utiliser .equals au lieu de == (String only).
-Utiliser .concat au lieu de + (String only).
-Utiliser continue pour reprendre depuis le début une boucle
+Utiliser "++var" pour incrémenter, réduit le nombre d'opération effectué.
+Utiliser ".equals" au lieu de == (String only).
+Utiliser ".concat" au lieu de + (String only).
+Utiliser "continue" pour reprendre depuis le début une boucle.
+Utiliser mettre en NULL un objet quand on en a plus besoin.
+Décomposer des fonctions en méthode si processus répété
+Utiliser for([Type] valueInList : [Nom de la liste])
+Mettre en privée tout les attributs et utilisé getter et setter
+faire un try ([commande pour lecture de fichier et de base de donnes "critique"]) {} UNIQUEMENT avec si la classe posséde un autocloseable.
